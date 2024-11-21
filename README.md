@@ -28,6 +28,6 @@ echo password=$GIT_PASS
    ```
 2. Run the script to configure the credential helper:
    ```bash
-   bash script.sh
+   bash git_credential_helper.sh
    ```
 3. Git will now use the credentials provided by the script automatically for operations like `git clone`, `git pull`, etc.
